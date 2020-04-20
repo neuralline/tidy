@@ -50,7 +50,7 @@ function TidyScanLog(i: string) {
    }
    const err = (fileInfo: any) => {
       state.errors = [...state.errors, fileInfo]
-      process.stdout.write(`${colorScheme[1]}   can not access   ${fileInfo}`)
+      process.stdout.write(`${colorScheme[1]}   can not access  `)
    }
    const info = (): State => {
       return {...state}

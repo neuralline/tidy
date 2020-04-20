@@ -8,18 +8,16 @@
    "module": "dist/tidy.esm.js",
    "minified": "dist/tidy.min.js",
    "bin": {
-      "@neuralline/tidy": "./bin/tidy-cli",
       "tidy": "./bin/tidy-cli"
    },
    "publishConfig": {
       "access": "public"
    },
    "scripts": {
-      "start": "node ./src/cli",
+      "start": "node ./bin/tidy-cli",
       "tidy": "npx @neuralline/tidy",
       "build": "rollup -c ",
       "watch": "rollup -c -w",
-      "dev": "npm-run-all --parallel start watch",
       "test": "jest",
       "tsc": "tsc"
    },

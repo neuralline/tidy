@@ -16,6 +16,8 @@ Uninstall for npm and yarn
 ```sh
 npx @neuralline/tidy
 
+*This is a npx cli no installation required
+
 ```
 
 ## Example
