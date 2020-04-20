@@ -1,0 +1,23 @@
+{
+   "compilerOptions": {
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "noUnusedParameters": true,
+      "noUnusedLocals": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "importHelpers": true,
+      "removeComments": true,
+      "sourceMap": false,
+      "declaration": true,
+      "declarationMap": true,
+      "target": "ESNext",
+      "module": "ESNext",
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "lib": ["ESNext", "esnext.asynciterable", "dom"],
+      "jsx": "react"
+   },
+   "include": ["src/**/*.ts"],
+   "exclude": ["src/**/__tests__/**/*"]
+}
