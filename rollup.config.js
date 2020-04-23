@@ -1,4 +1,5 @@
 import commonjs from '@rollup/plugin-commonjs'
+import resolve from '@rollup/plugin-node-resolve'
 import {terser as minify} from 'rollup-plugin-terser'
 import typescript from 'rollup-plugin-typescript2'
 import tsCompile from 'typescript'
@@ -18,6 +19,7 @@ export default [
       plugins: [
          typescript({typescript: tsCompile, target: 'ESNext'}),
          commonjs(),
+         // resolve(),
          minify({
             mangle: {
                toplevel: true
@@ -30,14 +32,16 @@ export default [
             }
          })
       ]
-   } /* ,
+   } /*
+
    {
       input,
       external,
-      output: {name: 'cli', file: pkg.cjs, format: 'cjs'},
+      output: {name: 'Tidy', file: pkg.minified, format: 'cjs'},
+
       plugins: [
          typescript({typescript: tsCompile, target: 'ESNext'}),
          commonjs()
       ]
-   } */
+   }*/
 ]

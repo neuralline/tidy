@@ -11,6 +11,8 @@
 # production
 /build
 *.map
+.vscode
+.idea
 # misc
 .DS_Store
 .env.local

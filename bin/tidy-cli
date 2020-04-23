@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 //@neuralline/tidy
-const {cli} = require('../dist/tidy.min')
+const {cli} = require('../dist/tidy')
 
 cli(process.argv)

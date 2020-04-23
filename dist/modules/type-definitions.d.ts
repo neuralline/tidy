@@ -1,6 +1,6 @@
-import { Wanted } from './interfaces/tidy';
-export declare const matchAgainst: Wanted;
-export declare const initial_stats: {
+import { Wanted } from '../interfaces/tidy';
+export declare const WatchedFilesList: Wanted;
+export declare const Initial_state: {
     fileName: string;
     depth: number;
     files: number;
@@ -14,4 +14,4 @@ export declare const initial_stats: {
     '.cache': number;
     subDirectories: never[];
 };
-//# sourceMappingURL=type-definitions.d.ts.map
+export declare const Services: any;
