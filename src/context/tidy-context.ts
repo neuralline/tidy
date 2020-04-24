@@ -55,7 +55,7 @@ export const TidyScanLog = (i: string) => {
             )
          })
          process.stdout.write(
-            `\n\n${colorScheme[4]}[Found]${colorScheme[5]} run 'tidy up' to remove these files.`
+            `\n\n${colorScheme[4]}[Found] run 'tidy up' to remove these files.`
          )
       } else {
          process.stdout.write(

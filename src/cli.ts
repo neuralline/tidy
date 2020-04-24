@@ -36,7 +36,7 @@ const parseArgumentsIntoOptions = async (args: any) => {
       Neural Line
       Neat and controlled.
       T.I.D.Y ~/ˈtʌɪdi/
-      cli version 0.0.3 - 2020    
+      cli version 0.0.4 - 2020    
      
     \n`)
 

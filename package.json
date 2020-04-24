@@ -1,7 +1,7 @@
 {
    "name": "@neuralline/tidy",
-   "version": "0.0.3",
-   "description": "Removes all node modules and build time files from your project directories and sub directories",
+   "version": "0.0.4",
+   "description": "Removes node modules and build time files from your project directories and sub directories",
    "main": "dist/tidy.min",
    "input": "src/cli.ts",
    "cjs": "dist/tidy.cjs.js",

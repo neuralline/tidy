@@ -21,7 +21,7 @@ import {WatchedFilesList} from './type-definitions'
 export const TidyScan = async (startPath: string) => {
    const resolvedPath = path.resolve(startPath)
    const filesTheDirectory = fs.readdirSync(resolvedPath) || []
-   if (filesTheDirectory.length) return false
+   if (!filesTheDirectory.length) return
    await Promise.allSettled(
       filesTheDirectory.map(async (fileName: string) => {
          try {

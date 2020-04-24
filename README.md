@@ -7,7 +7,7 @@ Removes node modules and build time files from your project directories. Silentl
     Neural Line
     Neat and controlled.
     T.I.D.Y ~/ˈtʌɪdi/
-    cli version 0.0.3 - 2020
+    cli version 0.0.4 - 2020
 
 ```
 
@@ -36,7 +36,7 @@ type 'tidy scan' or 'tidy up' on your terminal to scan or remove unnecessary fil
 ## Description
 
 ```sh
-Finds and Removes installed npm dependencies or node_modules, cache and other build time files/directories from your machine. If you are like me, clone git projects to test, revers engineer or use create-react-app a lot chances are there are huge npm dependencies installed every where. Sometimes twice [server, client]. This cli app will help you keep your project neat and tidy
+Finds and Removes installed npm dependencies, node_modules, cache and other build time files/directories from your machine. If you are like me, clone git projects to test, revers engineer or use create-react-app a lot chances are there are huge npm dependencies installed every where. Sometimes twice [server, client]. This cli app will help you keep your project neat and tidy
 
 ```
 
@@ -64,13 +64,13 @@ Finds and Removes installed npm dependencies or node_modules, cache and other bu
 
 ```
 
-### What's new on V0.03
+### What's new on V0.04
 
 ```sh
 - destructuring and unit testing
 - performance improvement
 - uses the new Promise.allSettled module
-- requires at least node 12 to run
+- might require Node 12 to run
 - built with 'Node 14'
 - shake down some dependencies and went native
 - full TypeScript
